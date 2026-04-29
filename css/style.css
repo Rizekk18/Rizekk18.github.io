@@ -1,7 +1,7 @@
 /**
  * @author Michal Řezníček
  *
- * @brief Personal portfolio — blueprint / technical drawing theme.
+ * @brief Personal portfolio - blueprint / technical drawing theme.
  */
 
 * {
@@ -720,7 +720,7 @@ main>section {
 }
 
 
-/* ---------- Responsive — desktop overrides (mobile-first) ---------- */
+/* ---------- Responsive - desktop overrides (mobile-first) ---------- */
 @media (min-width: 768px) {
   .site-header {
     flex-direction: row;
@@ -805,7 +805,7 @@ main>section {
   }
 }
 
-/* ---------- Responsive — large desktops ---------- */
+/* ---------- Responsive - large desktops ---------- */
 @media (min-width: 1600px) {
   .project-grid {
     grid-template-columns: repeat(3, 1fr);

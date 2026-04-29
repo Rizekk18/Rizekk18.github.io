@@ -1,4 +1,4 @@
-# ITW — Projekt 2
+# ITW - Projekt 2
 
 **Autor:** Michal Řezníček (xreznim00)
 **Předmět:** Tvorba webových stránek (ITW), FIT VUT
@@ -13,11 +13,11 @@ na výkresu a v patičce rohové razítko (`DRAWN BY / SCALE / VERSION / DATE`).
 ### Sekce
 
 1. Hero
-2. About — text + foto + spec sheet
-3. Education — časová osa škol
-4. Skills — Languages / Tools / Systems
-5. Projects — IZP, IJC, IOS, IZLO
-6. Interests — Hockey, Gaming, Movies & Shows (sekce s podsekcemi)
+2. About - text + foto + spec sheet
+3. Education - časová osa škol
+4. Skills - Languages / Tools / Systems
+5. Projects - IZP, IJC, IOS, IZLO
+6. Interests - Hockey, Gaming, Movies & Shows (sekce s podsekcemi)
 7. Contact
 
 ## Co jsem použil
@@ -25,8 +25,8 @@ na výkresu a v patičce rohové razítko (`DRAWN BY / SCALE / VERSION / DATE`).
 - **HTML5** sémanticky (`<header>`, `<nav>`, `<section>`, `<article>`, `<dl>`, `<ol>`).
 - **CSS3** ručně, žádný framework. Mobile-first, layout přes Grid + Flexbox,
   pozadí je vrstvený `linear-gradient` (blueprint mřížka).
-- **SVG** — `img/ruler.svg` (engineering pravítko jako oddělovač sekcí).
-- **JS** — hamburger menu na mobilu (přepíná třídu `.is-open` na navigaci,
+- **SVG** - `img/ruler.svg` (engineering pravítko jako oddělovač sekcí).
+- **JS** - hamburger menu na mobilu (přepíná třídu `.is-open` na navigaci,
   po kliknutí na odkaz se menu samo zavře).
 
 ## Soubory
@@ -47,7 +47,7 @@ odevzdáním.
 
 ## AI nástroje
 
-Použil jsem **Claude** (Anthropic) jako asistenta — pomohl mi:
+Použil jsem **Claude** (Anthropic) jako asistenta - pomohl mi:
 
 - vygenerovat HTML kostru podle popisu, jaké sekce má obsahovat
 - vysvětlit, jak fungují CSS animace (`@keyframes`, `animation`)
