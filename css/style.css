@@ -21,6 +21,7 @@ body {
   line-height: 1.6;
   color: #e6f1ff;
   background-color: #0a2540;
+  /* blueprint grid */
   background-image:
     linear-gradient(#1e4a7b 1px, transparent 1px),
     linear-gradient(90deg, #1e4a7b 1px, transparent 1px),
@@ -78,6 +79,7 @@ p {
   max-width: 35rem;
 }
 
+/* "// " prefix on section titles */
 section>h2::before {
   content: "// ";
   color: #ffd166;
@@ -119,6 +121,7 @@ main>section {
   transition: color 0.2s;
 }
 
+/* [ name ] brackets around title */
 .site-title::before {
   content: "[";
   color: #ffd166;
@@ -195,6 +198,7 @@ main>section {
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
+  /* fill viewport minus header */
   min-height: calc(100vh - 4rem);
   display: flex;
   flex-direction: column;
@@ -204,6 +208,7 @@ main>section {
   padding: 4rem 1.5rem;
 }
 
+/* corner crosshairs */
 .hero::before,
 .hero::after {
   content: "";
@@ -254,6 +259,7 @@ main>section {
   padding: 1rem 0;
 }
 
+/* lines above and below the name */
 .hero-name::before,
 .hero-name::after {
   content: "";
@@ -298,6 +304,7 @@ main>section {
 
 .hero-scroll span {
   font-size: 1.2rem;
+  /* bobbing arrow */
   animation: bob 1.6s ease-in-out infinite;
 }
 
@@ -348,6 +355,7 @@ main>section {
   transition: filter 0.3s ease;
 }
 
+/* show color photo on hover */
 .about-photo:hover img {
   filter: none;
 }
@@ -380,6 +388,7 @@ main>section {
   padding-left: 2.5rem;
 }
 
+/* vertical axis line */
 .timeline::before {
   content: "";
   position: absolute;
@@ -399,6 +408,7 @@ main>section {
   padding-bottom: 0;
 }
 
+/* dot marker on the axis */
 .timeline li::before {
   content: "";
   position: absolute;
@@ -482,6 +492,7 @@ main>section {
   border: 1px solid #2f6aa8;
 }
 
+/* [ tag ] brackets */
 .tag-list li::before {
   content: "[ ";
   color: #5fc9f8;
@@ -532,6 +543,7 @@ main>section {
   transform: translateY(-2px);
 }
 
+/* + mark in card corner */
 .project-card::before {
   content: "+";
   position: absolute;
@@ -677,6 +689,7 @@ main>section {
   padding: 0.75rem 1rem;
 }
 
+/* 2x2 layout on mobile */
 .title-block>div:nth-child(odd) {
   border-right: 1px solid #2f6aa8;
 }
