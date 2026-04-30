@@ -1,8 +1,4 @@
-/**
- * @author Michal Řezníček
- *
- * @brief Personal portfolio - blueprint / technical drawing theme.
- */
+/* autor: Michal Řezníček */
 
 * {
   box-sizing: border-box;
@@ -10,6 +6,7 @@
   padding: 0;
 }
 
+/* smooth scrolling */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
@@ -52,7 +49,7 @@ svg {
 }
 
 
-/* ---------- Typography ---------- */
+/* TYPOGRAPHY */
 h1,
 h2,
 h3 {
@@ -87,7 +84,7 @@ section>h2::before {
 }
 
 
-/* ---------- Layout ---------- */
+/* LAYOUT */
 main>section {
   max-width: 1100px;
   margin: 0 auto;
@@ -95,7 +92,7 @@ main>section {
 }
 
 
-/* ---------- Header + navigation ---------- */
+/* HEADER + NAVIGATION */
 .site-header {
   position: sticky;
   top: 0;
@@ -195,7 +192,7 @@ main>section {
 }
 
 
-/* ---------- Hero ---------- */
+/* HERO */
 .hero {
   position: relative;
   /* fill viewport minus header */
@@ -208,7 +205,7 @@ main>section {
   padding: 4rem 1.5rem;
 }
 
-/* corner crosshairs */
+/* corners decoration */
 .hero::before,
 .hero::after {
   content: "";
@@ -327,7 +324,7 @@ main>section {
 }
 
 
-/* ---------- About ---------- */
+/* ABOUT */
 .about-grid {
   margin-top: 2rem;
   display: grid;
@@ -381,14 +378,14 @@ main>section {
 }
 
 
-/* ---------- Education timeline ---------- */
+/* EDUCATION */
 .timeline {
   margin-top: 2.5rem;
   position: relative;
   padding-left: 2.5rem;
 }
 
-/* vertical axis line */
+/* vertical line */
 .timeline::before {
   content: "";
   position: absolute;
@@ -440,7 +437,7 @@ main>section {
 }
 
 
-/* ---------- Skills ---------- */
+/* SKILLS */
 .skills-intro {
   margin-top: 1.5rem;
   max-width: none;
@@ -504,22 +501,7 @@ main>section {
 }
 
 
-/* ---------- Subsections (Interests) ---------- */
-.subsection {
-  margin-top: 3rem;
-}
-
-.subsection>h3 {
-  font-size: 1.3rem;
-  color: #ffd166;
-  letter-spacing: 0.1em;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px dashed #2f6aa8;
-  margin-bottom: 1.75rem;
-}
-
-
-/* ---------- Projects ---------- */
+/* PROJECTS */
 .project-grid {
   margin-top: 2.5rem;
   display: grid;
@@ -597,7 +579,21 @@ main>section {
 }
 
 
-/* ---------- Hockey ---------- */
+/* SUBSECTIONS (INTERESTS) */
+.subsection {
+  margin-top: 3rem;
+}
+
+.subsection>h3 {
+  font-size: 1.3rem;
+  color: #ffd166;
+  letter-spacing: 0.1em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #2f6aa8;
+  margin-bottom: 1.75rem;
+}
+
+/* HOCKEY */
 .hockey-grid {
   margin-top: 2rem;
   display: grid;
@@ -612,7 +608,7 @@ main>section {
 }
 
 
-/* ---------- Contact ---------- */
+/* CONTACT */
 .contact-card {
   margin-top: 2.5rem;
   border: 1px solid #2f6aa8;
@@ -671,7 +667,7 @@ main>section {
 }
 
 
-/* ---------- Footer (title block) ---------- */
+/* FOOTER */
 .site-footer {
   max-width: 1100px;
   margin: 4rem auto 2rem;
@@ -721,7 +717,7 @@ main>section {
 }
 
 
-/* ---------- Section divider (engineering ruler) ---------- */
+/* SECTION DIVIDER (RULER) */
 .section-divider {
   height: 24px;
   margin: 0 auto;
@@ -733,7 +729,7 @@ main>section {
 }
 
 
-/* ---------- Responsive - desktop overrides (mobile-first) ---------- */
+/* RESPONSIVE - DESKTOP (MOBILE-FIRST) */
 @media (min-width: 768px) {
   .site-header {
     flex-direction: row;
@@ -769,20 +765,20 @@ main>section {
     grid-template-rows: auto auto;
   }
 
-  .about-grid > .about-text,
-  .hockey-grid--photo > .hockey-text {
+  .about-grid>.about-text,
+  .hockey-grid--photo>.hockey-text {
     grid-column: 1;
     grid-row: 1;
   }
 
-  .about-grid > .about-specs,
-  .hockey-grid--photo > .about-specs {
+  .about-grid>.about-specs,
+  .hockey-grid--photo>.about-specs {
     grid-column: 1;
     grid-row: 2;
   }
 
-  .about-grid > .about-photo,
-  .hockey-grid--photo > .about-photo {
+  .about-grid>.about-photo,
+  .hockey-grid--photo>.about-photo {
     grid-column: 2;
     grid-row: 1 / span 2;
     align-self: stretch;
@@ -818,7 +814,7 @@ main>section {
   }
 }
 
-/* ---------- Responsive - large desktops ---------- */
+/* RESPONSIVE - LARGE DESKTOPS */
 @media (min-width: 1600px) {
   .project-grid {
     grid-template-columns: repeat(3, 1fr);

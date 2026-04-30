@@ -1,8 +1,10 @@
-// hamburger menu for mobile nav
+// autor: Michal Řezníček
+
 var nav = document.querySelector('.main-nav');
 var toggle = document.querySelector('.nav-toggle');
 var label = document.querySelector('.nav-toggle-label');
 
+// Hamburger menu for mobile nav
 toggle.addEventListener('click', function () {
   var isOpen = nav.classList.toggle('is-open');
   if (isOpen) {
@@ -12,7 +14,7 @@ toggle.addEventListener('click', function () {
   }
 });
 
-// close menu after clicking a link
+// Close menu after clicking a link
 var links = nav.querySelectorAll('a');
 for (var i = 0; i < links.length; i++) {
   links[i].addEventListener('click', function () {
