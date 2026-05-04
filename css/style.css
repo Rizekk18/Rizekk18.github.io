@@ -196,7 +196,7 @@ main>section {
 .hero {
   position: relative;
   /* fill viewport minus header */
-  min-height: calc(100vh - 4rem);
+  min-height: calc(100vh - 6.5rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -752,6 +752,10 @@ main>section {
 
   main>section {
     padding: 6rem 1.5rem;
+  }
+
+  .hero {
+    min-height: calc(100vh - 4rem);
   }
 
   .about-grid,
