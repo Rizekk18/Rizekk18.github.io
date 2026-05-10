@@ -1,4 +1,4 @@
-// autor: Michal Řezníček
+// author: Michal Řezníček
 
 var nav = document.querySelector('.main-nav');
 var toggle = document.querySelector('.nav-toggle');

@@ -7,7 +7,7 @@
 ## O čem to je
 
 Single-page osobní portfolio stylizované jako **technický výkres / blueprint**.
-Tmavě modré pozadí s mřížkou, monospace nadpisy, žluté akcenty jako poznámky
+Tmavě modré pozadí s mřížkou, žluté akcenty jako poznámky
 na výkresu a v patičce rohové razítko (`DRAWN BY / SCALE / VERSION / DATE`).
 
 ### Sekce
@@ -25,7 +25,7 @@ na výkresu a v patičce rohové razítko (`DRAWN BY / SCALE / VERSION / DATE`).
 - **HTML5** sémanticky (`<header>`, `<nav>`, `<section>`, `<article>`, `<dl>`, `<ol>`).
 - **CSS3** ručně, žádný framework. Mobile-first, layout přes Grid + Flexbox,
   pozadí je vrstvený `linear-gradient` (blueprint mřížka).
-- **SVG** - `img/ruler.svg` (engineering pravítko jako oddělovač sekcí).
+- **SVG** - `img/ruler.svg` (pravítko jako oddělovač sekcí).
 - **JS** - hamburger menu na mobilu (přepíná třídu `.is-open` na navigaci,
   po kliknutí na odkaz se menu samo zavře).
 
@@ -42,7 +42,7 @@ xreznim00/
 
 ## Testováno
 
-Firefox a Chrome na Linuxu. HTML i CSS validuju přes W3C validator před
+Firefox na Linuxu a Chrome na Mobilu. HTML i CSS validuju přes W3C validator před
 odevzdáním.
 
 ## AI nástroje
@@ -60,7 +60,7 @@ tagů, opakující se vzory).
 **Sám jsem dělal:**
 
 - vizuální koncept (blueprint téma, paleta, typografii)
-- veškerý obsah (texty, výběr projektů, hodnoty ve spec sheetech)
+- veškerý obsah (texty, výběr projektů)
 - rozhodnutí o struktuře sekcí
 - CSS Grid layout (mobile-first, breakpoint na desktop)
 - úprava fotek (crop, resize)
