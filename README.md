@@ -42,26 +42,27 @@ xreznim00/
 
 ## Testováno
 
-Firefox na Linuxu a Chrome na Mobilu. HTML i CSS validuju přes W3C validator před
-odevzdáním.
+Firefox na Fedoře a Safari na iPhonu. HTML i CSS prošly W3C validátorem.
 
 ## AI nástroje
 
 Použil jsem **Claude** (Anthropic) jako asistenta - pomohl mi:
 
-- vygenerovat HTML kostru podle popisu, jaké sekce má obsahovat
+- podle mého rozpisu sekcí rozepsat sémantické HTML5 tagy
+  (`<header>`, `<section>`, `<article>`, `<dl>`)
 - vysvětlit, jak fungují CSS animace (`@keyframes`, `animation`)
-- s JS (hamburger menu)
-- doladit drobnosti (např. `clamp()`, `calc()`, SVG)
+  a responsive typografie přes `clamp()`
+- poradit s JS pro hamburger menu
+- vysvětlit syntax pro `calc()` a vrstvený `linear-gradient` pozadí
 
-Ve VS Code jsem měl zapnutý **GitHub Copilot** na autocomplete (uzavírání
-tagů, opakující se vzory).
+Na závěr jsem si nechal od Clauda projít CSS a navrhnout zjednodušení
+(sjednocení stylu, odstranění redundance).
 
 **Sám jsem dělal:**
 
 - vizuální koncept (blueprint téma, paleta, typografii)
 - veškerý obsah (texty, výběr projektů)
-- rozhodnutí o struktuře sekcí
+- rozhodnutí o struktuře sekcí a layoutu
 - CSS Grid layout (mobile-first, breakpoint na desktop)
 - úprava fotek (crop, resize)
 - postupné doladění a deploy na GitHub Pages

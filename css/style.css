@@ -585,8 +585,8 @@ main>section {
   margin-bottom: 1.75rem;
 }
 
-/* HOCKEY */
-.hockey-grid {
+/* INTEREST GRID */
+.interest-grid {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -594,7 +594,7 @@ main>section {
   align-items: start;
 }
 
-.hockey-text {
+.interest-text {
   font-size: 1.05rem;
   line-height: 1.7;
 }
@@ -750,30 +750,30 @@ main>section {
   }
 
   .about-grid,
-  .hockey-grid {
+  .interest-grid {
     grid-template-columns: 2fr 1fr;
     gap: 3rem;
   }
 
   .about-grid,
-  .hockey-grid--photo {
+  .interest-grid--photo {
     grid-template-rows: auto auto;
   }
 
   .about-grid>.about-text,
-  .hockey-grid--photo>.hockey-text {
+  .interest-grid--photo>.interest-text {
     grid-column: 1;
     grid-row: 1;
   }
 
   .about-grid>.about-specs,
-  .hockey-grid--photo>.about-specs {
+  .interest-grid--photo>.about-specs {
     grid-column: 1;
     grid-row: 2;
   }
 
   .about-grid>.about-photo,
-  .hockey-grid--photo>.about-photo {
+  .interest-grid--photo>.about-photo {
     grid-column: 2;
     grid-row: 1 / span 2;
     align-self: stretch;
